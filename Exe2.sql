@@ -31,3 +31,7 @@ SELECT * FROM pessoa1;
 SELECT * FROM pessoa1 WHERE salario < 2000;
 
 SELECT * FROM pessoa1 WHERE salario > 2000;
+
+UPDATE pessoa1 
+SET salario = 2500
+WHERE id=5;
